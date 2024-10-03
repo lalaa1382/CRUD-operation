@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>Список должностей</h2>
+    <div>
+        <input type="hidden" id="positionId" />
+        <p>
+            Название:<br />
+            <input id="positionName" />
+        </p>
+        <p>
+            Зарплата:<br />
+            <input id="positionSalary" />
+        </p>
+        <p>
+            Образование:<br />
+            <input id="positionQual" />
+        </p>
+        <p>
+            <button id="savePosBtn">Сохранить</button>
+            <button id="resetPosBtn">Сбросить</button>
+        </p>
+    </div>
+    <script>
+        async function createPosition(positionName, positionSalary, positionQual) {
+            const response = await fetch("/api/positions", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    Name: positionName,
+                    Salary: positionSalary,
+                    Qualification: positionQual
+                })
+            });
+
+        }
+        function resetPos() {
+            document.getElementById("positionId").value =
+                document.getElementById("positionName").value =
+                document.getElementById("positionQual").value = "";
+            document.getElementById("positionSalary").value = "";
+            document.getElementById("positionEmployeeId").value = "";
+        }
+        document.getElementById("resetPosBtn").addEventListener("click", () => resetPos());
+
+        document.getElementById("savePosBtn").addEventListener("click", async () => {
+            const id = document.getElementById("positionId").value;
+            const Name = document.getElementById("positionName").value;
+            const Qualification = document.getElementById("positionQual").value;
+            const Salary = document.getElementById("positionSalary").value;
+            if (id === "")
+                await createPosition(Name, Salary, Qualification);
+            reset();
+        });
+    </script>
+</body>
+</html>

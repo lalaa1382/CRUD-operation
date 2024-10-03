@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LW7</title>
+    <style>
+        textarea, input {
+            color: white !important; 
+            background-color: transparent; 
+            border: 1px solid white; 
+        }
+
+            textarea::placeholder, input::placeholder {
+                color: #ccc; 
+                opacity: 1; 
+            }
+
+            textarea:focus, input:focus {
+                outline-color: #26a69a;
+            }
+
+        body {
+            font-family: "Open Sans", Helvetica, Arial, sans-serif;
+            color: white;
+            overflow-x: hidden;
+            background-size: 5% auto;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/cat.jpg') no-repeat center center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h4>Должности</h4>
+    <div id="tagButtons">
+        @if (ViewBag.Tag != null)
+        {
+            foreach (var tag in ViewBag.Tag)
+            {
+                if (tag != null)
+                {
+                    <button class="btn tag-button" data-tag-id="@tag.Id">@tag.Name</button>
+                }
+            }
+        }
+    </div>
+    <div>
+        <br /><br />
+        <h5>Добавление нового поста</h5><br />
+        <form method="post" asp-action="Index">
+            <div>
+                <label class="form-label">Заголовок</label>
+                <input type="text" class="form-control" id="blogPostHeading" name="Heading" />
+            </div>
+            <div>
+                <label class="form-label">Название страницы</label>
+                <input type="text" class="form-control" id="blogPostPageTitle" name="PageTitle" />
+            </div>
+            <div>
+                <label class="form-label">Краткое описание</label>
+                <input type="text" class="form-control" id="blogPostShortDescription" name="ShortDescription" />
+            </div>
+            <div>
+                <label class="form-label">URL изображения</label>
+                <input type="text" class="form-control" id="blogPostFeaturedImageUrl" name="FeaturedImageUrl" />
+            </div>
+            <div>
+                <label class="form-label">Контент</label>
+                <input type="text" class="form-control" id="blogPostContent" name="Content" />
+            </div>
+            <div>
+                <label class="form-label">URL ручка</label>
+                <input type="text" class="form-control" id="blogPostUrlHandle" name="UrlHandle" />
+            </div>
+            <div>
+                <label class="form-label">Дата публикации</label>
+                <input type="date" class="form-control" id="blogPostPublishedDate" name="PublishedDate" />
+            </div>
+            <div>
+                <label class="form-label">Автор</label>
+                <input type="text" class="form-control" id="blogPostAuthor" name="Author" />
+            </div>
+            <div>
+                <label class="form-label">Номер тега</label>
+                <input type="text" class="form-control" id="blogPostTagId" name="TagId" />
+            </div>
+            <div>
+                <button type="submit" class="btn btn-dark">Сохранить</button>
+                <button type="button" class="btn btnDl" id="resetBtn">Сбросить</button>
+            </div>
+        </form>
+        <br /><br /><br /><br />
+    </div>
+    <table id="dataTable" style="width:100%; color:white">
+        <thead>
+            <tr>
+                <th>Заголовок</th>
+                <th>Краткое описание</th>
+                <th>URL изображения</th>
+                <th>Автор</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody style="color=white">
+            @foreach (var blogPost in ViewBag.BlogPosts)
+            {
+                <tr data-rowid="@blogPost.Id">
+                    <td>@blogPost.Heading</td>
+                    <td>@blogPost.ShortDescription</td>
+                    <td>@blogPost.FeaturedImageUrl</td>
+                    <td>@blogPost.Author</td>
+                    <td>
+                        <a class="btnD btn" href="/Details?id=@blogPost.Id">Детали</a>
+                        <a class="btnE btn" href="/Edit?id=@blogPost.Id">Изменить</a>
+                        <a class="btnDl btn" href="/Delete?id=@blogPost.Id">Удалить</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.tag-button').forEach(button => {
+                button.addEventListener('click', function () {
+                    var tagId = this.getAttribute('data-tag-id');
+                    filterBlogPostsByTag(tagId);
+                });
+            });
+
+            document.getElementById("resetBtn").addEventListener("click", () => reset());
+            document.getElementById("saveBtn").addEventListener("click", () => saveBlogPost());
+        });
+
+        function filterBlogPostsByTag(tagId) {
+            const rows = document.querySelectorAll('#dataTable tbody tr');
+            rows.forEach(row => {
+                const blogPostTagId = row.querySelector('td:nth-child(9)').innerText;
+                if (blogPostTagId == tagId) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        function saveBlogPost() {
+            const id = document.getElementById("blogPostId").value;
+            const heading = document.getElementById("blogPostHeading").value;
+            const pageTitle = document.getElementById("blogPostPageTitle").value;
+            const shortDescription = document.getElementById("blogPostShortDescription").value;
+            const featuredImageUrl = document.getElementById("blogPostFeaturedImageUrl").value;
+            const content = document.getElementById("blogPostContent").value;
+            const urlHandle = document.getElementById("blogPostUrlHandle").value;
+            const publishedDate = document.getElementById("blogPostPublishedDate").value;
+            const author = document.getElementById("blogPostAuthor").value;
+            const tagId = document.getElementById("blogPostTagId").value;
+
+            if (id === "") {
+                createBlogPost(heading, pageTitle, shortDescription, featuredImageUrl, content, urlHandle, publishedDate, author, tagId);
+            } else {
+                editBlogPost(id, heading, pageTitle, shortDescription, featuredImageUrl, content, urlHandle, publishedDate, author, tagId);
+            }
+
+            reset();
+        }
+
+        function createBlogPost(heading, pageTitle, shortDescription, featuredImageUrl, content, urlHandle, publishedDate, author, tagId) {
+            const newRow = document.createElement('tr');
+            newRow.setAttribute('data-rowid', Date.now());
+            newRow.innerHTML = `
+            <td>${heading}</td>
+            <td>${pageTitle}</td>
+            <td>${shortDescription}</td>
+            <td>${featuredImageUrl}</td>
+            <td>${content}</td>
+            <td>${urlHandle}</td>
+            <td>${publishedDate}</td>
+            <td>${author}</td>
+            <td>${tagId}</td>
+            <td>
+                <a href="/Details?id=${Date.now()}">Детали</a>
+                <a href="/Edit?id=${Date.now()}">Изменить</a>
+                <a href="/Delete?id=${Date.now()}">Удалить</a>
+            </td>
+            `;
+            document.querySelector("#dataTable tbody").appendChild(newRow);
+        }
+
+        function editBlogPost(id, heading, pageTitle, shortDescription, featuredImageUrl, content, urlHandle, publishedDate, author, tagId) {
+            const row = document.querySelector(`tr[data-rowid='${id}']`);
+            if (row) {
+                row.innerHTML = `
+                <td>${heading}</td>
+                <td>${pageTitle}</td>
+                <td>${shortDescription}</td>
+                <td>${featuredImageUrl}</td>
+                <td>${content}</td>
+                <td>${urlHandle}</td>
+                <td>${publishedDate}</td>
+                <td>${author}</td>
+                <td>${tagId}</td>
+                <td>
+                    <a href="/Details?id=${id}">Детали</a>
+                    <a href="/Edit?id=${id}">Изменить</a>
+                    <a href="/Delete?id=${id}">Удалить</a>
+                </td>
+                `;
+            }
+        }
+
+        function deleteBlogPost(id) {
+            const row = document.querySelector(`tr[data-rowid='${id}']`);
+            if (row) {
+                row.remove();
+            }
+        }
+
+        function reset() {
+            document.getElementById("blogPostId").value = "";
+            document.getElementById("blogPostHeading").value = "";
+            document.getElementById("blogPostPageTitle").value = "";
+            document.getElementById("blogPostShortDescription").value = "";
+            document.getElementById("blogPostFeaturedImageUrl").value = "";
+            document.getElementById("blogPostContent").value = "";
+            document.getElementById("blogPostUrlHandle").value = "";
+            document.getElementById("blogPostPublishedDate").value = "";
+            document.getElementById("blogPostAuthor").value = "";
+            document.getElementById("blogPostTagId").value = "";
+        }
+    </script>
+    <script>
+        new DataTable('#dataTable');
+    </script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyLWork7.props" />
+</Project>
