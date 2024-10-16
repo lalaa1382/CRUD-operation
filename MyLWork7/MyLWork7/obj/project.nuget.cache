@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uE7uFMxC1tM=",
+  "dgSpecHash": "/Fj3Oo22/h0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marry-\\Desktop\\2\\asp.net\\MyLWork7\\MyLWork7\\MyLWork7.csproj",
+  "projectFilePath": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\MyLWork7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marry-\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Marry-\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -81,5 +81,12 @@
     "C:\\Users\\Marry-\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Marry-\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

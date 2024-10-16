@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyLWork7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b999f7a49cf74099ef84a1c4a5ad5c6e4212221")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c84867fde95f6585dcd0a4b910d22fddd7217a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyLWork7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyLWork7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

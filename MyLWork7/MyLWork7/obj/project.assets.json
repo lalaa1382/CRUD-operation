@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marry-\\Desktop\\2\\asp.net\\MyLWork7\\MyLWork7\\MyLWork7.csproj",
+      "projectUniqueName": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\MyLWork7.csproj",
       "projectName": "MyLWork7",
-      "projectPath": "C:\\Users\\Marry-\\Desktop\\2\\asp.net\\MyLWork7\\MyLWork7\\MyLWork7.csproj",
+      "projectPath": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\MyLWork7.csproj",
       "packagesPath": "C:\\Users\\Marry-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marry-\\Desktop\\2\\asp.net\\MyLWork7\\MyLWork7\\obj\\",
+      "outputPath": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marry-\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4126,7 +4126,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -4183,8 +4184,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

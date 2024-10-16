@@ -23,6 +23,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+textarea, input {
+    color: white !important;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+    textarea::placeholder, input::placeholder {
+        color: #ccc;
+        opacity: 1;
+    }
+
+    textarea:focus, input:focus {
+        outline-color: #26a69a;
+    }
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    background-size: 5% auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/cat.jpg') no-repeat center center;
+}
+
+
 .div-container {
     display: flex;
     margin: 20px;

@@ -1,0 +1,540 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\models\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\models\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\views\\admintags\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\views\\admintags\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\wwwroot\\css\\tooplate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\wwwroot\\css\\tooplate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\views\\shared\\position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\views\\shared\\position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\wwwroot\\css\\materialize.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\wwwroot\\css\\materialize.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Home\\Position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyLWork7\\Views\\Home\\Position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Controllers\\HomeController1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyLWork7\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Models\\Domain\\Position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Controllers\\PositionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Position\\Position.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Position\\Position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Employee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Migrations\\20240506170641_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Models\\Domain\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|c:\\users\\marry-\\desktop\\work\\crud-operation\\mylwork7\\mylwork7\\migrations\\20241016074713_mymi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BB011C-EE8E-4587-8727-9FCB0AB16B24}|MyLWork7\\MyLWork7.csproj|solutionrelative:mylwork7\\migrations\\20241016074713_mymi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Models\\Domain\\Tag.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Models\\Domain\\Tag.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Models\\Domain\\Tag.cs",
+              "RelativeToolTip": "MyLWork7\\Models\\Domain\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:31:40.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Models\\Domain\\BlogPost.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Models\\Domain\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Models\\Domain\\BlogPost.cs",
+              "RelativeToolTip": "MyLWork7\\Models\\Domain\\BlogPost.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:31:37.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\AdminTags\\Add.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\AdminTags\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\AdminTags\\Add.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\AdminTags\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T19:27:02.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MyLWork7\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:18.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Program.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Program.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Program.cs",
+              "RelativeToolTip": "MyLWork7\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwBwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:18.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\appsettings.json",
+              "RelativeDocumentMoniker": "MyLWork7\\appsettings.json",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\appsettings.json",
+              "RelativeToolTip": "MyLWork7\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T07:42:19.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tooplate.css",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\tooplate.css",
+              "RelativeDocumentMoniker": "MyLWork7\\wwwroot\\css\\tooplate.css",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\tooplate.css",
+              "RelativeToolTip": "MyLWork7\\wwwroot\\css\\tooplate.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T07:42:19.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Models\\Domain\\Position.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Models\\Domain\\Position.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Models\\Domain\\Position.cs",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Models\\Domain\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:18.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyLWork7\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:18.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241016074713_MyMi.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Migrations\\20241016074713_MyMi.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Migrations\\20241016074713_MyMi.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Migrations\\20241016074713_MyMi.cs",
+              "RelativeToolTip": "MyLWork7\\Migrations\\20241016074713_MyMi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:47:13.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PositionController.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Controllers\\PositionController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Controllers\\PositionController.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Controllers\\PositionController.cs",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Controllers\\PositionController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:18.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "MyLWork7\\Data\\DBContext.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Data\\DBContext.cs",
+              "RelativeToolTip": "MyLWork7\\Data\\DBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:18.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Position.js",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Position\\Position.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Position\\Position.js",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Position\\Position.js",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Position\\Position.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-16T07:42:18.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Position.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Position\\Position.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Position\\Position.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Position\\Position.cshtml",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Position\\Position.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Employee.js",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Employee.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Employee.js",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Employee.js",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Employee.js",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-16T07:42:18.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Position.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Shared\\Position.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\Shared\\Position.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Shared\\Position.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\Shared\\Position.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:18.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "materialize.min.css",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\materialize.min.css",
+              "RelativeDocumentMoniker": "MyLWork7\\wwwroot\\css\\materialize.min.css",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\materialize.min.css",
+              "RelativeToolTip": "MyLWork7\\wwwroot\\css\\materialize.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T07:42:19.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:19.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240506170641_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Migrations\\20240506170641_FirstMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Migrations\\20240506170641_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Migrations\\20240506170641_FirstMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Migrations\\20240506170641_FirstMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:19.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "MyLWork7\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeToolTip": "MyLWork7\\wwwroot\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T07:42:19.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "favicon.ico",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "MyLWork7\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\favicon.ico",
+              "RelativeToolTip": "MyLWork7\\wwwroot\\favicon.ico",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-10-16T07:42:19.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Models\\Domain\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Models\\Domain\\Employee.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Models\\Domain\\Employee.cs",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Models\\Domain\\Employee.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:42:19.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MyLWork7\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MyLWork7\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T07:42:19.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "MyLWork7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "MyLWork7\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAGgBAAAAAAAAAAAAAG4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T07:42:19.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Position.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Home\\Position.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\Home\\Position.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\Home\\Position.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\Home\\Position.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwDkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:19.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController1.cs",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Controllers\\HomeController1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\MyLWork7\\MyLWork7\\Controllers\\HomeController1.cs",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\MyLWork7\\MyLWork7\\Controllers\\HomeController1.cs",
+              "RelativeToolTip": "..\\..\\..\\MyLWork7\\MyLWork7\\Controllers\\HomeController1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:23:09.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:19.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MyLWork7\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Marry-\\Desktop\\work\\CRUD-operation\\MyLWork7\\MyLWork7\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MyLWork7\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T07:42:19.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
